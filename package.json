@@ -1,0 +1,34 @@
+{
+  "name": "react-intl-toolkit",
+  "version": "0.0.1",
+  "description": "Simplify React Intl usage and automatically generate the messages of each language",
+  "scripts": {
+    "install": "babel src/ --out-dir ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zation/react-intl-toolkit.git"
+  },
+  "keywords": [
+    "react-intl",
+    "i18n",
+    "localization"
+  ],
+  "author": "zation1@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zation/react-intl-toolkit/issues"
+  },
+  "homepage": "https://github.com/zation/react-intl-toolkit#readme",
+  "devDependencies": {
+    "babel-cli": "6.9.0",
+    "babel-eslint": "6.0.4",
+    "babel-plugin-transform-object-rest-spread": "6.8.0",
+    "babel-preset-es2015-node5": "1.2.0",
+    "eslint": "2.11.1",
+    "rimraf": "2.5.2"
+  },
+  "dependencies": {
+    "lodash": "4.13.1"
+  }
+}
