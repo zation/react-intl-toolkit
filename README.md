@@ -37,7 +37,7 @@ project_root
 This is an alternative method for React Intl's original `defineMessages`, which can simplify your messages definition. This function should be used in `messages.js` file:
 
 ```js
-import { defineMessages } from 'react-intl-tookit/defineMessages';
+import defineMessages from 'react-intl-tookit/defineMessages';
 
 export default defineMessages({
   save: 'Click here to save',
