@@ -1,6 +1,6 @@
 {
   "name": "react-intl-toolkit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simplify React Intl usage and automatically generate the messages of each language",
   "scripts": {
     "install": "babel src/ --out-dir ./"
